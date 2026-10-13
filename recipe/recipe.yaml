@@ -13,7 +13,7 @@ source:
   sha256: 91dad0729f2fb3f9e4df490fe02ce2bc23cd3e3554e5f04cfbcbca317be30144
 
 build:
-  number: 1
+  number: 2
   script:
     - if: unix
       then:
@@ -37,13 +37,13 @@ build:
 
 requirements:
   build:
-    - nodejs >=24
+    - nodejs
     - pnpm
     - pnpm-licenses
   host:
-    - nodejs >=24
+    - nodejs
   run:
-    - nodejs >=24
+    - nodejs
 
 tests:
   - script:
