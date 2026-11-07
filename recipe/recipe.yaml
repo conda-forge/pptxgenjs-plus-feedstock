@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.3.6"
+  version: "4.3.7"
 
 package:
   name: pptxgenjs-plus
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/pptxgenjs-plus/-/pptxgenjs-plus-${{ version }}.tgz
-  sha256: a5a36369234a321800793d5ca88403d3d1efbd3fb897f785337c87888b3906fd
+  sha256: c48e8c3195756d085c9151be2d16df6511fbfd8e5cad92b2332ef63dab2d479f
 
 build:
   number: 0
